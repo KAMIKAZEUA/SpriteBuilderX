@@ -26,6 +26,9 @@
 
 @implementation CCBTransparentView
 
+//this should be disabled too, but looks like works without disabling,
+//let's keep it, but testing..
+
 - (void)drawRect:(NSRect)rect {
     [[NSColor clearColor] set];
     NSRectFill(rect);

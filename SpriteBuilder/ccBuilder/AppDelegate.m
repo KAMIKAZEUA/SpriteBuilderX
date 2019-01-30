@@ -500,6 +500,8 @@ typedef enum
     [guiWindow setContentView:guiView];
     guiWindow.delegate = self;
     
+    guiWindow.backgroundColor = [NSColor clearColor];
+    
     [window addChildWindow:guiWindow ordered:NSWindowAbove];
 }
 
