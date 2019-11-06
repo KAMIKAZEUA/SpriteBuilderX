@@ -121,7 +121,7 @@ end
 
 namespace :build do
     desc "Build (only) SpriteBuilder's new project template"
-    task :template => ["Generated/#{TEMPLATE_FILENAME}.zip"] {}
+    task :template => ["Generated/#{TEMPLATE_FILENAME}.zip"]
 
     desc "Generate all associated files and version info"
     task :generated => [:template, "Generated/Version.txt"] do
