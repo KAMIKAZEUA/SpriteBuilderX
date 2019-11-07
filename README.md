@@ -1,6 +1,6 @@
 # SpriteBuilderX
 
-    This branch requires the use of https://github.com/newnon/cocos2d-x
+    This branch requires the use of https://github.com/newnon/cocos2d-x or https://github.com/KAMIKAZEUA/cocos2d-x
 
 After you have created a new project with command line, then replace files completely inside `cocos2d` folder from `newnon/cocos2d-x/cocos`
 
